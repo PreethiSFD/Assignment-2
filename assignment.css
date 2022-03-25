@@ -105,7 +105,7 @@ body {
 
 .itemImg { grid-area: menu; }
 .itemPrice1 { grid-area: priceMember; }
-.itemPrice2 { grid-area: footer; }
+.itemPrice2 { grid-area: priceTeam; }
 
 
 .grid-container-price {
