@@ -49,13 +49,6 @@ body {
   font-size: 30px;
 }
 
-.grid-container > div {
-  background-color: green;
-  text-align: left;
-  padding: 10px 0;
-  font-size: 30px;
-}
-
 .itemRoti1 {
   grid-area: rotiArea;
 }
@@ -73,10 +66,6 @@ body {
   grid-gap: 10px;
   background-color: white;
   padding: 10px;
-}
-
-.item11 {
-  grid-area: TacoImgArea;
 }
 
 .grid-container-more-food {
@@ -115,7 +104,7 @@ body {
 
 
 .itemImg { grid-area: menu; }
-.itemPrice1 { grid-area: main; }
+.itemPrice1 { grid-area: priceMember; }
 .itemPrice2 { grid-area: footer; }
 
 
@@ -123,8 +112,8 @@ body {
   display: grid;
   grid-template-areas:
     
-    'menu menu menu menu main main'
-    'menu menu menu menu footer footer';
+    'menu menu menu menu priceMember priceMember'
+    'menu menu menu menu priceTeam priceTeam';
   gap: 1px;
   background-color: pink;
   padding: 10px;
